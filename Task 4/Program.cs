@@ -62,7 +62,7 @@ namespace Task_4
             List<Student> students = new List<Student>
             {
                 new Student("Samir"),
-                new Student("Deepti"),
+                new Student(""),
                 new Student("Pratikshya"),
                 new Student("Prabesh"),
                 new Student("Nikesh"),
