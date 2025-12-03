@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Task_4
 {
-    // Book class for filtering example
+    // Book class for filtering the  example
     public class Book
     {
         public string Title { get; set; }
@@ -46,7 +46,7 @@ namespace Task_4
                 new Book("Data and Web Development", 1200),
                 new Book("Advanced Programming", 800),
                 new Book("Application Development", 1500),
-                new Book("Smart Data Discovery", 600)
+                new Book("Artificial Intelligence", 600)
             };
 
             var premiumBooks = books.Where(b => b.Price > 1000).ToList();
